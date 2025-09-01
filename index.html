@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Apresentação OKRs - Tema Tecnologia</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: #e2e8f0;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+  }
+  .slide {
+    display: none;
+    min-height: 100vh;
+    padding: 3rem 2rem;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 900px;
+    margin: auto;
+  }
+  .slide.active {
+    display: flex;
+  }
+  h1, h2, h3, h4 {
+    background: linear-gradient(90deg, #6366f1, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .tech-border {
+    border: 2px solid #6366f1;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    background: rgba(15, 23, 42, 0.7);
+    box-shadow: 0 0 15px #6366f1aa;
+  }
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  .nav-buttons {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: 1rem;
+  }
+  button {
+    background: #6366f1;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 0 10px #6366f1aa;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background: #ec4899;
+  }
+  pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .scrollable-text {
+    max-height: 60vh;
+    overflow-y: auto;
+    padding-right: 1rem;
+  }
+</style>
+</head>
+<body>
+
+<!-- Slide 1 -->
+<section class="slide active" id="slide1">
+  <h1 class="text-6xl font-bold mb-6 text-center">OKR</h1>
+  <h2 class="text-3xl mb-8 text-center">Objectives and Key Results<br><span class="text-lg text-slate-400">Objetivos e Resultados-Chave</span></h2>
+  <p class="text-center max-w-3xl mx-auto text-lg">
+    Metodologia de gestão de metas usada para definir e acompanhar objetivos ambiciosos e mensuráveis, ajudando organizações, equipes e pessoas a alinharem esforços e focarem no que realmente importa.
+  </p>
+</section>
+
+<!-- Slide 2 -->
+<section class="slide" id="slide2">
+  <h2 class="text-4xl font-bold mb-6">Diferença entre Objetivo e Resultado-Chave</h2>
+  <div class="tech-border mb-6">
+    <h3 class="text-2xl font-semibold mb-2">Objetivo (O)</h3>
+    <p>É uma meta qualitativa, clara e inspiradora. Define o que queremos alcançar.</p>
+  </div>
+  <div class="tech-border">
+    <h3 class="text-2xl font-semibold mb-2">Resultado-Chave (KR)</h3>
+    <p>São métricas quantitativas que mostram se o objetivo foi atingido. Definem como vamos medir o sucesso.</p>
+  </div>
+</section>
+
+<!-- Slide 3 -->
+<section class="slide" id="slide3">
+  <h2 class="text-4xl font-bold mb-6">Exemplos</h2>
+  <div class="tech-border mb-6">
+    <h3 class="text-2xl font-semibold mb-2">Objetivo:</h3>
+    <p>Melhorar a experiência dos clientes</p>
+    <h4 class="mt-4 font-semibold">Resultados-Chave:</h4>
+    <ul class="list-disc list-inside">
+      <li>Aumentar o NPS de 60 para 75</li>
+      <li>Reduzir o tempo médio de resposta de 24h para 12h</li>
+      <li>Obter 90% de avaliações positivas no suporte</li>
+    </ul>
+  </div>
+  <div class="tech-border">
+    <h3 class="text-2xl font-semibold mb-2">Exemplo 2 (Pessoa):</h3>
+    <p>Ficar em forma até o fim do trimestre</p>
+    <h4 class="mt-4 font-semibold">Resultados-Chave:</h4>
+    <ul class="list-disc list-inside">
+      <li>Ir à academia 3 vezes por semana</li>
+      <li>Reduzir 5kg de gordura corporal</li>
+      <li>Manter alimentação saudável 6 dias por semana</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Slide 4 -->
+<section class="slide" id="slide4">
+  <h2 class="text-4xl font-bold mb-6">Origem e História dos OKRs</h2>
+  <div class="scrollable-text tech-border">
+    <h3 class="text-2xl font-semibold mb-2">Intel e Andy Grove – Criação do Método</h3>
+    <p>O método OKR foi criado por Andy Grove, um dos fundadores da Intel. Ele chamava de "iMBOs" (Intel Management by Objectives), inspirado no conceito de "administração por objetivos" de Peter Drucker. Grove formalizou o modelo atual de Objective + Key Results nos anos 1970 para aumentar a clareza e o foco dentro da Intel.</p>
+    <h3 class="text-2xl font-semibold mt-6 mb-2">Popularização pelo Google</h3>
+    <p>Em 1999, John Doerr, ex-funcionário da Intel e investidor do Google, apresentou os OKRs a Larry Page e Sergey Brin. O Google adotou o método desde o início e o usa até hoje. Isso levou a uma enorme visibilidade da metodologia no mundo todo.</p>
+    <h3 class="text-2xl font-semibold mt-6 mb-2">Como se tornou referência mundial</h3>
+    <p>Após o sucesso do Google, empresas como LinkedIn, Twitter, Dropbox, Spotify, Netflix e muitas outras passaram a adotar os OKRs. A simplicidade, transparência e foco nos resultados fizeram do método uma referência global em gestão de metas. Hoje, é utilizado em empresas de todos os tamanhos, além de startups, governos e até por indivíduos.</p>
+  </div>
+</section>
+
+<!-- Slide 5 -->
+<section class="slide" id="slide5">
+  <h2 class="text-4xl font-bold mb-6">Estrutura dos OKRs</h2>
+  <div class="tech-border mb-6">
+    <h3 class="text-2xl font-semibold mb-2">Objetivo (O): Onde queremos chegar?</h3>
+    <p>Um bom objetivo é qualitativo, inspirador e significativo. Ele deve motivar a equipe e ser um desafio, não apenas uma tarefa a ser cumprida.</p>
+    <p class="italic mt-2">Exemplo: "Lançar um produto revolucionário que redefine a experiência do cliente."</p>
+  </div>
+  <div class="tech-border">
+    <h3 class="text-2xl font-semibold mb-2">Resultados-Chave (KR): Como saberemos se chegamos lá?</h3>
+    <p>São a parte quantitativa e mensurável do OKR. Devem ter um número ou métrica clara, mostrando o progresso em direção ao objetivo.</p>
+    <p class="italic mt-2">Exemplo:</p>
+    <ul class="list-disc list-inside">
+      <li>KR1: Atingir 10.000 usuários ativos na primeira semana.</li>
+      <li>KR2: Obter uma pontuação de 4.8/5.0 em avaliações de clientes.</li>
+      <li>KR3: Gerar R$ 500.000 em receita no primeiro mês.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Slide 6 -->
+<section class="slide" id="slide6">
+  <h2 class="text-4xl font-bold mb-6">Diferença entre OKR e Metas Tradicionais</h2>
+  <p class="tech-border p-6">
+    A principal diferença entre OKR e metas tradicionais é a ambição. Enquanto metas tradicionais costumam ser um "plano de ação" para o que você já sabe que precisa fazer, os OKRs são um "plano de voo" para o que você poderia alcançar, focando em resultados e não apenas em tarefas.
+  </p>
+</section>
+
+<!-- Slide 7 -->
+<section class="slide" id="slide7">
+  <h2 class="text-4xl font-bold mb-6">Benefícios do OKR</h2>
+  <ul class="list-disc list-inside space-y-3 tech-border p-6">
+    <li><strong>Clareza e Foco:</strong> Ajudam a direcionar o esforço de todos para as poucas coisas que realmente importam.</li>
+    <li><strong>Alinhamento:</strong> Conectam os objetivos individuais e de equipe aos da organização, garantindo que todos trabalhem na mesma direção.</li>
+    <li><strong>Transparência:</strong> O progresso e os desafios são visíveis para todos, criando um ambiente de colaboração e confiança.</li>
+    <li><strong>Motivação e Engajamento:</strong> Ao desafiar a equipe com metas ambiciosas, os OKRs estimulam a inovação e o senso de propósito.</li>
+  </ul>
+</section>
+
+<!-- Slide 8 -->
+<section class="slide" id="slide8">
+  <h2 class="text-4xl font-bold mb-6">Ciclos e Práticas de OKR</h2>
+  <ul class="list-disc list-inside space-y-3 tech-border p-6">
+    <li><strong>Periodicidade:</strong> OKRs são geralmente definidos em ciclos trimestrais, o que permite agilidade e ajustes rápidos. Objetivos anuais maiores podem servir como a visão de longo prazo.</li>
+    <li><strong>Revisões:</strong> O acompanhamento é crucial. Reuniões de check-in semanais mantêm o progresso em pauta e permitem resolver obstáculos.</li>
+    <li><strong>Conexão:</strong> A eficácia dos OKRs depende da conexão entre os níveis. Os OKRs individuais e de equipe devem contribuir diretamente para os objetivos estratégicos da organização.</li>
+  </ul>
+</section>
+
+<!-- Slide 9 -->
+<section class="slide" id="slide9">
+  <h2 class="text-4xl font-bold mb-6">Exemplos Práticos</h2>
+  <div class="tech-border p-6 space-y-6">
+    <div>
+      <h3 class="text-2xl font-semibold mb-2">Tecnologia / Desenvolvimento de Produto (ex: Google, Spotify)</h3>
+      <ul class="list-disc list-inside">
+        <li>Reduzir o tempo médio de resposta da API de 500ms para 200ms</li>
+        <li>Diminuir os erros 500 em produção para menos de 0,1%</li>
+        <li>Aumentar a cobertura de testes automatizados de 70% para 90%</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-2xl font-semibold mb-2">Recursos Humanos / People (ex: LinkedIn, iFood)</h3>
+      <ul class="list-disc list-inside">
+        <li>Aumentar o eNPS de 55 para 70</li>
+        <li>Implementar um plano de desenvolvimento individual para 100% dos funcionários</li>
+        <li>Reduzir a taxa de turnover voluntário de 15% para 10%</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-2xl font-semibold mb-2">Atendimento ao Cliente (ex: Zendesk, Hotmart)</h3>
+      <ul class="list-disc list-inside">
+        <li>Atingir uma nota média de CSAT (Customer Satisfaction Score) de 90%</li>
+        <li>Reduzir o tempo de primeira resposta para menos de 2 horas</li>
+        <li>Resolver 80% dos chamados no primeiro contato</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 10 -->
+<section class="slide" id="slide10">
+  <h2 class="text-4xl font-bold mb-6">Desafios e Cuidados</h2>
+  <ul class="list-disc list-inside space-y-3 tech-border p-6">
+    <li>Definir metas pouco inspiradoras ou genéricas: OKRs devem ser ambiciosos, claros e motivadores. Objetivos vagos como "Melhorar nosso sistema" não engajam nem direcionam esforços.</li>
+    <li>Estabelecer OKRs demais: Um excesso de objetivos ou KRs por ciclo faz com que os times percam o foco. Isso pode levar à sobrecarga ou à falta de priorização real.</li>
+    <li>Foco excessivo em métricas fáceis: Muitas vezes os times optam por Key Results fáceis de atingir apenas para “bater a meta”. Isso mina a ambição e o espírito de aprendizado do OKR.</li>
+    <li>Desalinhamento entre equipes e níveis da organização: Se os OKRs não forem conectados ao nível estratégico da empresa, cada time pode seguir sua própria direção, comprometendo a visão global.</li>
+    <li>Falta de acompanhamento: Definir os OKRs e esquecê-los até o final do ciclo é um erro crítico. Sem acompanhamento regular, eles não influenciam o dia a dia.</li>
+  </ul>
+</section>
+
+<!-- Slide 11 -->
+<section class="slide" id="slide11">
+  <h2 class="text-4xl font-bold mb-6">Cuidados para aplicar OKRs com sucesso</h2>
+  <ul class="list-disc list-inside space-y-3 tech-border p-6">
+    <li>Treinar a equipe sobre o conceito e o propósito do OKR: Clareza sobre o que são, para que servem e como usá-los.</li>
+    <li>Conectar OKRs aos objetivos estratégicos da empresa: Reforça o alinhamento e o propósito coletivo.</li>
+    <li>Manter um número reduzido e focado de OKRs: Prioridade e foco são fundamentais para bons resultados.</li>
+    <li>Fomentar a cultura de aprendizado e melhoria contínua: OKRs são uma ferramenta de aprendizado, não punição.</li>
+    <li>Celebrar conquistas, mesmo que parciais: Reconhecer o progresso estimula o engajamento com o processo.</li>
+  </ul>
+</section>
+
+<!-- Navegação -->
+<div class="nav-buttons">
+  <button onclick="prevSlide()">← Anterior</button>
+  <button onclick="nextSlide()">Próximo →</button>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  let current = 0;
+
+  function showSlide(index) {
+    if(index < 0) index = slides.length - 1;
+    if(index >= slides.length) index = 0;
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('active', i === index);
+    });
+    current = index;
+  }
+
+  function nextSlide() {
+    showSlide(current + 1);
+  }
+
+  function prevSlide() {
+    showSlide(current - 1);
+  }
+
+  document.addEventListener('keydown', e => {
+    if(e.key === 'ArrowRight') nextSlide();
+    if(e.key === 'ArrowLeft') prevSlide();
+  });
+</script>
+
+</body>
+</html>
